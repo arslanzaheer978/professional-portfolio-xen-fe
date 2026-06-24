@@ -18,8 +18,8 @@
     "url": "https://github.com/susanavenda/professional-portfolio.git"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
     "preview": "vite preview",
     "test": "jest",
     "test:watch": "jest --watch",
